@@ -100,15 +100,15 @@
 // console.log(Object.keys(person))
 // console.log(Object.entries(person))
 
-function createPerson(firstName, lastName) {
-    return {
-        firstName: firstName,
-        lastName : lastName,
-        greet: function(){
-            return firstName + lastName
-        }
-    }
-}
+// function createPerson(firstName, lastName) {
+//     return {
+//         firstName: firstName,
+//         lastName : lastName,
+//         greet: function(){
+//             return firstName + lastName
+//         }
+//     }
+// }
 
-let p1 = createPerson('shwey', 'kodam')
-console.log(p1)
+// let p1 = createPerson('shwey', 'kodam')
+// console.log(p1)
