@@ -87,14 +87,28 @@
 // let person  = new Person('joe', 'chily')
 // console.log(person.greet())
 
-let person ={
-    firstName : 'Shwey',
-    lastName : 'Kodam'
-}
+// let person ={
+//     firstName : 'Shwey',
+//     lastName : 'Kodam'
+// }
 
 // for(let i in person){
 //     console.log(i + ':'+ person[i])
 // }
 
 // console.log(Object.values(person))
-console.log(Object.keys(person))
+// console.log(Object.keys(person))
+// console.log(Object.entries(person))
+
+function createPerson(firstName, lastName) {
+    return {
+        firstName: firstName,
+        lastName : lastName,
+        greet: function(){
+            return firstName + lastName
+        }
+    }
+}
+
+let p1 = createPerson('shwey', 'kodam')
+console.log(p1)
