@@ -1,5 +1,11 @@
-// let message = 'I\'m also a valid string'; // use \ to escape the single quote (')
+// let message = 'I\'m also a valid string'; // use \ to escape the single quote 
 // console.log(message)
+
+// console.log(null == undefined)  //true
+// console.log(null === undefined)  //false
+
+// console.log(3 == '3')  // true
+// console.log(3 == -3)   //false
 
 //type coercion
 
@@ -21,21 +27,36 @@
 // console.log(0 ||	null)  //null
 // console.log(true ||	false)  //true
 
+// console.log(true && false)   //false
+// console.log(0 && null)    //0
+// console.log(0 && 'shwe')  //0
+
 // console.log('app' > 'ban')  //false
+
+// console.log('app' < 'APP')   //false
+// console.log('app' > 'APP')   /true
 
 // let a =1;
 // ++a 
 
 // a++
 // console.log(a++)  //1
+// console.log(a)   //2
 // console.log(++a) //2
 
 // console.log((10).toString(2))  //1010
 
 // console.log(NaN/2); // NaN
-// console.log(NaN == NaN); // false
+// console.log(NaN === NaN); // false
 
 // console.log(Symbol() == Symbol()); // false
+
+// let str = ' hi, I\'m shweta!'
+// console.log(str)
+
+let str = `"I'm shweta!"`
+console.log(str)
+
 
 // let person ={
 //     name :'shwe',
