@@ -19,17 +19,41 @@
       <div id="id1">
         Seventh Div
       </div>
-      <div>
+      <div class="eighth">
         Eight Div
       </div>
     </div>
-    <div>Ninth Div</div>
+    <div class="h1text">Ninth Div</div>
     <p>Write Your Experience Here</p>
 
 
     <script>
         let namech = document.querySelector('.class1')
         namech.innerText='Shweta'
+      document.querySelector('.class2').innerText = 'I\'m Shweta Kodam Gangadhar'
+      document.querySelector('.class3').style.color = 'red'
+
+      document.querySelectorAll('.divs')[0].style.border = '1px solid black'
+      document.querySelectorAll('.divs')[1].style.border = '1px solid black'
+      document.querySelectorAll('.divs')[2].style.border = '1px solid black'
+
+
+      document.querySelector('#id1').append('Aircampus')
+
+      document.querySelector('.eighth').innerHTML='<div class="new_htlm"> <p>This is my first assignment</p> </div>'
+
+      document.querySelector('.h1text').innerHTML='<h1>My Experience with AirCampus</h1>'
+
+      document.querySelector('h1').style.textDecoration='underline'
+      document.querySelector('h1').style.color = 'red'
+      document.querySelector('h1').style.fontSize = '32px'
+      document.querySelector('h1').style.fontWeight='bold'
+
+      document.querySelectorAll('p')[1].innerText = "I have learned html ,css and javscript and every mentor had helped me to cope up with my issue"
+
+
+
+
 
     </script>
 
