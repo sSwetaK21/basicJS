@@ -54,9 +54,12 @@
 // let str = ' hi, I\'m shweta!'
 // console.log(str)
 
-let str = `"I'm shweta!"`
-console.log(str)
+// let str = `"I'm shweta!"`
+// console.log(str)
 
+// let names = 'Joe'
+// let str = `he is ${names}`
+// console.log(str)
 
 // let person ={
 //     name :'shwe',

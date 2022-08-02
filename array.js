@@ -42,14 +42,26 @@
 // console.log(arr)   //[1,2]
 
 
+
 // let arr =[1,2,3,4,5]
+// console.log(arr.slice(1,-2))  //[ 2, 3 ]
+
+// console.log(arr.slice(1,arr.length -1)) // [ 2, 3,4 ]
+
 // console.log(arr.slice(1,3)) //[2,3]
+
 // console.log(arr.slice(-2))   //[4,5]
+
 // console.log(arr.slice(1))    // [2,3,4,5]
+
+//======================Splice============================
 
 // let arr =[0,1,2,3,4,5,6]
 // arr.splice(1,0,2)
 // console.log(arr)   //[ 0,2,1,2,3,4,5,6]
+
+
+
 
 // arr.splice(3,2,8,9)   //[0,1,2,8,9,5,6]
 // console.log(arr) 
@@ -63,8 +75,11 @@
 // let arr = [1,2,3,'a']
 // console.log(arr.toString())   //1,2,3,a
 
+// let n = 33
+// console.log(n.toString())
+
 // let arr =[3,4,2,24,1,10]
-// // arr.sort()   [1,10,2,24,3,4]
+// arr.sort()  // [1,10,2,24,3,4]
 
 // // arr.sort(function(a,b){
 // //     return a - b        //Ascending [1,2,3,4,10,24]
@@ -73,6 +88,8 @@
 // // arr.sort((a,b)=> b -a)  //descending [24,10,4,3,2,1]
 
 // console.log(arr)
+
+
 
 // let arr = [1,2,3,4,5]
 // let res = arr.filter((value)=> value >4)  //5
@@ -123,26 +140,22 @@
 // const flatNumbers = numbers.flat(Infinity);
 // console.log(flatNumbers);
 
+// let arr =[1,2,3]
+// let {a,b, ...rest} = arr
+// console.log(a,b,rest)
 
-//STRING
-
-// let str = 'hi shweta am I okay?,Hi again'
-// // let res = str.replace('hi', 'hello')   //'hello shweta am i okay?
-
-// // let res = str.replace(/hi/, 'hello') //hello shweta am I okay?,hi again
-
-// // let res = str.replace(/hi/ig, 'Hello') //Hello shweta am I okay?,Hello again
+// let arr1 = [1,2]
+// let arr2= [3,4]
+// let res = [...arr1, ...arr2]
 // console.log(res)
 
 
-// let str =' this is uppercase';
-// console.log(str.toUpperCase())  // THIS IS UPPERCASE
+// let nestedNumbers = [[1], [2]];
+// let numbersCopy = JSON.parse(JSON.stringify(nestedNumbers));
+// console.log(numbersCopy)
 
-// let str =' THIS IS UPPERCASE';
-// console.log(str.toLowerCase())  // this is uppercase
-
-// let str ='hi hello heyy heycha';
-// console.log(str.charAt(3))  //h
-
-// let str = 'hi hey heycha'
-// console.log(str.split())   //[ 'hi hey heycha' ]
+// var y=1;
+// if(function f() {}){
+//     y += typeof f
+// }
+// console.log(y)      //1undefined

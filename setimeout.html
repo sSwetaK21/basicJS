@@ -16,8 +16,10 @@
     <h2>Third heading</h2>
     <p>This is the third paragraph.</p>
     <button id="btnCount">Count H2</button>
+    <button id="btn">Click</button>
 
 
+    <input type ="text" name="textname" value="js">
 
     <button onclick="show()">Show</button>
     <button onclick="clearMsg()">clear</button>
@@ -45,11 +47,24 @@
 
             //h2count
 
-            let btn = document.getElementById('btnCount');
-        btn.addEventListener('click', () => {
-            let headings = document.getElementsByTagName('h2');
-            alert(`The number of H2 tags: ${headings.length}`);
-        });
+        //     let btn = document.getElementById('btnCount');
+        // btn.addEventListener('click', () => {
+        //     let headings = document.getElementsByTagName('h2');
+        //     alert(`The number of H2 tags: ${headings.length}`);
+        // });
+
+        
+        let btn2 = document.querySelector('#btn');
+
+btn2.addEventListener('click', function(event) {
+    console.log('The button was clicked!');
+    event.stopPropagation();
+});
+
+document.body.addEventListener('click',function(event) {
+    console.log('The body was clicked!');
+});
+
 
 
 

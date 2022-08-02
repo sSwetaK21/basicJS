@@ -112,3 +112,92 @@
 
 // let p1 = createPerson('shwey', 'kodam')
 // console.log(p1)
+
+
+// let n=4
+// for(let i=0;i<n;i++){
+//     console.log(i)
+// }
+
+// let n=[1,2,3]
+// for(let i=0; i<n.length;i++){
+//     console.log(n[i])
+// }
+
+// let person = {
+//     fname:'she',
+//     lname: 'kodam'
+// }
+
+// for(let i in person){
+//     console.log(person[i])
+// }
+
+
+// let i=1
+// while(i <10){
+//     console.log(i)
+//     i++
+// }
+
+// let i=1;
+// do{
+//     console.log(i)
+//     i++
+// } while(i<4){
+//     console.log('loop')
+// }
+
+// let n =55.867688
+// let a = Math.trunc(n)
+// console.log(a)
+
+// let arr=[1,2,3,4]
+// let res =[]
+// for(let i=0; i<arr.length;i++){
+//    res = Math.max(arr[i])
+// }
+// console.log(res)
+
+//=================FIRST  CLASS CITIZEN===========
+
+// function add(a,b){
+//     return a+b
+// }
+
+// function avg(fn,a,b){
+//     return fn(a,b)/2
+// }
+
+// console.log(avg(add,1,2))
+
+// let show = function (){
+//     console.log('Anonymous')
+// }
+// show()
+
+// let setVar = setTimeout(function (){
+//     console.log('hi')
+// },1000)
+
+// clearTimeout(setVar)
+
+// (function (){
+//     console.log('IIfe')
+// }) ()
+
+// let add = (a,b)=> a+b
+// console.log(add(3,4))
+
+// function sum(a){
+//     if(a<=1){
+//         return a
+//     }
+//     return a + sum(a-1)
+// }
+// console.log(sum(4))
+
+// let arr =[1,2]
+// let arr2=[3,4]
+// let res = [...arr,...arr2]
+// console.log(res)                       //[ 1, 2, 3, 4 ]
